@@ -1,16 +1,4 @@
 
-1. **用在import package**
-
-```go
-import _ "test/food"
-```
-
-引入包时，会先调用包中的初始化函数，这种使用方式仅让导入的包做初始化，而不使用包中其他功能
-
-### goroutine创建的时候如果要传一个参数进去有什么要注意的点？
-[https://www.cnblogs.com/waken-captain/p/10496454.html](https://www.cnblogs.com/waken-captain/p/10496454.html)  
-注：Golang1.22 版本对于for loop进行了修改，详见 [Fixing For Loops in Go 1.22](https://go.dev/blog/loopvar-preview)  
-
 ### 写go单元测试的规范？
 1. ** 单元测试文件命名规则 ：**
 
